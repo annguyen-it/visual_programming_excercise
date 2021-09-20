@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Ex5
+namespace Ex8
 {
     static class Program
     {
