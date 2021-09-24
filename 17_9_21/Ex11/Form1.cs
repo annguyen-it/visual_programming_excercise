@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Ex11
@@ -134,7 +130,8 @@ namespace Ex11
                 ", ", grbContact.Controls
                     .OfType<CheckBox>()
                     .Where(c => c.Checked)
-                    .Select(c => c.Text));
+                    .Select(c => c.Text)
+            );
 
             MessageBox.Show(
                 "Họ tên khách: " + txtName.Text +
