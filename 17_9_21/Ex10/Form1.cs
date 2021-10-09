@@ -104,7 +104,6 @@ namespace Ex10
                     string checkedCountry = checkedCountryRadio.Text;
                     if (dictionary[checkedCountry].Equals(capital))
                         MessageBox.Show(String.Format("Chúc mừng bạn, thủ đô của {0} là {1}", checkedCountry, capital));
-
                     else
                         MessageBox.Show(String.Format("Bạn sai rồi, thủ đô của {0} không phải là {1}", checkedCountry, capital));
                 });
